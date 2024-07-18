@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:  0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Mukta,sans-serif;}
+    h3{
+        color: #fff;
+    }
+    .flex{
+        display:flex;
+        align-items: center;
+    }
+    header{
+        background-color:  #2B2E63; 
+        justify-content: center;
+    }
+    h1{
+        color: white;
+    }
+    body{
+        background-color: aliceblue;
+    }
+    .flex{
+        display :flex;
+        align-items: center;
+    }
+    div{
+        margin: 10px;
+    }
+    .img{
+        box-shadow: 10px 10px 5px rgb(33, 33, 33) ;
+    transition-duration: 1s;
+    }
+    .img:hover{
+        box-shadow: -10px -10px 5px rgb(164, 162, 162) ;
+    }
+    
+    .text{
+        float: right;
+    }
+    .hi{
+        flex-direction: row-reverse;
+    }
+   
+    a{
+        color:white;
+        text-decoration: none;   
+    }
+
+    .footer{
+        width: 100vw;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        background-color: #2B2E63;
+    }
+    .bye{
+        text-decoration: none;
+    }

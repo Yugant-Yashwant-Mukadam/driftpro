@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:  0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Mukta,sans-serif;
+}
+body{
+    background-color: aliceblue;
+}
+.flex{
+    display:flex;
+    align-items: center;
+}
+.logo{
+    
+    background-color: #b4c5e4;
+    justify-content:center;
+}
+.logo img{
+    width: 500px;  
+    position:relative;
+    padding: 10px 20px;
+}
+/* nav */
+nav{
+    background-color: #2B2E63;
+    height: 50px;
+    border-bottom: 20px;
+}
+.navbar{
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-around;
+}
+li{
+    display: inline;
+    text-size-adjust: 1.5rem;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    padding-left: 20px;   
+}
+.hi{
+   
+    height: 50px; 
+    width: 130px;
+    border-radius: 10%;
+}
+.cardiv{
+    justify-content: space-around;
+}
+footer{
+    height:"20px";
+    background-color: #2B2E63;
+    align-items: center;
+    color: white;
+}
+
+.carimages{
+    /* padding: 10px; */
+    box-shadow: 10px 10px 5px rgb(33, 33, 33) ;
+    transition-duration: 2s;
+}
+.carimages:hover{
+    box-shadow: -10px -10px 5px rgb(164, 162, 162) ;
+}
+.footer{
+    margin-top: 15px;
+    justify-content: space-around;
+    align-items: center;
+}

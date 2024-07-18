@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:  0;
+    padding : 0;
+    box-sizing: border-box;
+    font-family: Mukta,sans-serif;
+    
+}
+.flex{
+    display:flex;
+
+}
+header{
+    background-color:  #2B2E63; 
+    justify-content: center;
+    color: white;
+}
+.text{
+    ali
+}
+.outer{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    background: linear-gardient(to left , #000000,#00000081);
+}
+.inner-tex{
+    flex-basis: 30%;
+}
+.inner-gal{
+    flex-basis: 50%;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-auto-rows: 120px;
+}
+.child{
+    background-image: cover;
+    background-position: top;
+    border-image-repeat: none;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition-duration: 2s;
+}
+.child:hover{
+    background-color: #e3d8d8;
+    background-blend-mode: hard-light;
+    background-position: center;
+}
+#a{
+    grid-row: span 2;
+    background-repeat: no-repeat;
+}
+#i{
+    grid-row: span 2;
+}
+#b{
+    grid-column: span 2;
+}
+#f{
+    grid-column: span 2; 
+}
+#e{
+    grid-column: span 2; 
+    background-repeat: no-repeat;
+}
+#g{
+    grid-column: span 2; 
+}  
+a{
+    color:white;
+    text-decoration: none;   
+}
+
+.footer{
+    width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    background-color: #2B2E63;
+}
